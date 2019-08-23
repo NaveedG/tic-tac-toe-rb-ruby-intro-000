@@ -126,5 +126,6 @@ def play(board)
     turn(board)
     current_player(board)
     display_board(board)
+    puts "Cat's Game!" if draw?(board)
   end
 end
