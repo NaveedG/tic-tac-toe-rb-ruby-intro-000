@@ -128,6 +128,6 @@ def play(board)
     current_player(board)
     display_board(board)
   end
-    puts "Congratulations, X!" if won?(board) && winner(board) == "X"
-    puts "Congratulations, O!" if won?(board) && winner(board) == "O"
+    puts "Congratulations X!" if won?(board) && winner(board) == "X"
+    puts "Congratulations O!" if won?(board) && winner(board) == "O"
     puts "Cat's Game!" if draw?(board)
