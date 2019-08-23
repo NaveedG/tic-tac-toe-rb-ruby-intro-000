@@ -40,7 +40,7 @@ def turn(board)
   position = input_to_index(user_input)
 
   if valid_move?(board, position)
-    move(board, position, token= "X" && "O")
+    move(board, position, token= "X")
     display_board(board)
   else
     turn(board)
