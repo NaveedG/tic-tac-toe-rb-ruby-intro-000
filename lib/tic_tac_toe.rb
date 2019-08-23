@@ -124,5 +124,7 @@ end
 def play(board)
   if !over?(board)
     turn(board)
+  else
+    "Congratulations!"
   end
 end
