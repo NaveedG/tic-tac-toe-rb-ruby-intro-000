@@ -126,7 +126,6 @@ def play(board)
   until over?(board)
     turn(board)
     current_player(board)
-    display_board(board)
   end
     puts "Congratulations X!" if won?(board) && winner(board) == "X"
     puts "Congratulations O!" if won?(board) && winner(board) == "O"
