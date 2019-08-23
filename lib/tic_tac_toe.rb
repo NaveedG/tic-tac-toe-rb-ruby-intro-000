@@ -47,3 +47,11 @@ def turn(board)
   end
 
 end
+
+def turn_count(board)
+  turn = 0
+  board.each do |position|
+    turn += 1 if position != " "
+  end
+  return turn
+end
