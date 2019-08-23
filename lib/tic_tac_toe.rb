@@ -126,5 +126,8 @@ def play(board)
     turn(board)
     current_player(board)
     display_board(board)
+  else
+    puts "Draw!" if draw?(board)
+    puts "Congrats!" if won?(board)
   end
 end
